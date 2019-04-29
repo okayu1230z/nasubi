@@ -51,7 +51,7 @@ def mkdt_year(args):
                 for iii in range(1000):
                     run_and_capture("dd if=/dev/zero of=test/" + yyyy + "/" + str(mm).zfill(2) + "/" + str(dd).zfill(2) + "/" + yyyy + str(mm).zfill(2) + str(dd).zfill(2) + "_" + str(iii).zfill(3) + ".dat bs=" + size + " count=1")
         else: #1,3,5,7,8,10,12
-            for dd in range(1, 32cd ../):
+            for dd in range(1, 32):
                 if not os.path.exists(root_dir + "/" + yyyy + "/" + str(mm).zfill(2) + "/" + str(dd).zfill(2)):
                     run_and_capture("mkdir " + root_dir + "/" + yyyy + "/" + str(mm).zfill(2) + "/" + str(dd).zfill(2))
                 for iii in range(1000):
