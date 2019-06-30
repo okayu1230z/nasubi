@@ -2,8 +2,7 @@
 #include <sys/time.h>
 
 struct handler_time {
-    double getattr;
-    double readlink;
+    double zikan;
 };
 
 static struct handler_time handler_time;
@@ -29,8 +28,7 @@ static double time_cal(double time_sec, double time_usec) {
 }
 
 int main(int argc, char **argv) {
-    handler_time.getattr = 0;
-    handler_time.readlink = 0;
+    handler_time.zikan = 0;
 //    handler_time = {0, 0};
 
     struct timeval tv;
@@ -43,6 +41,7 @@ int main(int argc, char **argv) {
     printf("%f.%f\n", time_before_sec, time_before_usec);
     printf("%f\n", before_time);
 
+    // ここの処理時間を測って構造体にぶちこむ
     for (int i=0; i<1000000000; i++) {
         int a = 100;
     }
