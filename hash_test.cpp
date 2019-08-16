@@ -11,6 +11,6 @@ int main() {
       cout << "itr->first " << itr->first << "\n";      cout << "itr->second " << itr->second << "\n";
       mp.erase(itr);
   } else {
-      cout << "aiueo!" << "\n
+      cout << "aiuoe!" << "\n
   }
 }
