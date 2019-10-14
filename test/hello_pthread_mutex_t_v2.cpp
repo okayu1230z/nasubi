@@ -14,6 +14,8 @@ void test_mutex();
 void *config_thread(void *ptr);
 void *ncache_thread(void *ptr);
 
+static int ncache_lifetime = 9;
+
 void test_mutex() {
 #if USE_LOCK
     cout << "USE_LOCK = 1" << endl;
@@ -44,8 +46,8 @@ void *ncache_thread(void *ptr)
     pthread_detach(pthread_self());
     int ncache_thread_count = 0;
 
-    double *interval = (double*) ptr;
-    double memory_span = (*interval) * 1000;
+    int *interval = (int*) ptr;
+    int memory_span = (*interval) * 1000;
     
     while(1) {
         sleep(*interval);
@@ -58,7 +60,7 @@ void *ncache_thread(void *ptr)
 int main() {
     pthread_t th_config;
     pthread_t th_ncache;
-    double ncache_interval = 2.5;
+    int ncache_interval = ncache_lifetime;
 
     int ret1 = pthread_create(&th_config, NULL, &config_thread, NULL);
     if(ret1 != 0) {

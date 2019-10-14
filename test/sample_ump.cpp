@@ -93,7 +93,7 @@ int organize_ump(double memory_span)
     {
         if (time - itr->second > memory_span)
         {
-            vec_erase.push_back(itr->first);;
+            vec_erase.push_back(itr->first);
         }
     }
 

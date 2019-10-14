@@ -1,0 +1,50 @@
+
+ 1 10000-1
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.0187283 s, 534 kB/s
+
+ 2 10000-2
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.010196 s, 981 kB/s
+
+ 3 10000-3
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00332019 s, 3.0 MB/s
+
+ 4 10000-4
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00310577 s, 3.2 MB/s
+
+ 5 10000-5
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00338234 s, 3.0 MB/s
+
+ 6 10000-6
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00328718 s, 3.0 MB/s
+
+ 7 10000-7
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00347927 s, 2.9 MB/s
+
+ 8 10000-8
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00330829 s, 3.0 MB/s
+
+ 9 10000-9
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00333832 s, 3.0 MB/s
+
+ 10 10000-10
+1+0 records in
+1+0 records out
+10000 bytes (10 kB, 9.8 KiB) copied, 0.00346091 s, 2.9 MB/s
