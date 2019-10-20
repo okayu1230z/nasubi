@@ -1,9 +1,0 @@
-dd if=/dev/zero of=/mnt/nas01 bs=10000 count=1
-
-
-
-time dd if=/dev/zero of=/mnt/nas01 ibs=1M obs=1M count=1
-
-
-
-
